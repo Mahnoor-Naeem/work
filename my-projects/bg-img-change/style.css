@@ -1,0 +1,86 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/Chatbot-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 5s;
+
+    animation-name: animate_bg_img;
+    animation-direction: alternate-reverse;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes animate_bg_img{
+    0%{
+        background-image: url(images/AI.png);
+    }
+    20%{
+        background-image: url(images/cloud-img.png);
+    }
+    40%{
+        background-image: url(images/hand-ai.jpg);
+    }
+    60%{
+        background-image: url(images/header-img.jpg);
+    }
+    80%{
+        background-image: url(images/robot-bg-img.jpg);
+    }
+    100%{
+        background-image: url(images/robot-img.png  );
+    }
+}
+
+
+
+.solution_sec .img_container{
+    height: 600px;
+}
+.solution_sec .img_container .img_box{
+    height: 80%;
+    width: 100%;
+    padding: 10px !important;
+    background-image: url(../images/s6.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 5s;
+
+    animation-name: animate_bg_img;
+    animation-direction: alternate-reverse;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out; 
+}
+@keyframes animate_bg_img{
+    0%{
+        background-image: url(../images/imd1.png);
+    }
+    25%{
+        background-image: url(../images/robot.png);
+    }
+    50%{
+        background-image: url(../images/ai-img.png);
+    }
+    75%{
+        background-image: url(../images/robot-img.png);
+    }
+    100%{
+        background-image: url(../images/science.png);
+    }
+}
